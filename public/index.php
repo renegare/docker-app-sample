@@ -2,4 +2,4 @@
 
 date_default_timezone_set('Europe/London');
 
-echo 'The time sponsered by <investor> is: ' . date('Y-m-d H:i:s');
+echo 'The time sponsered by CASIO® is: ' . date('Y-m-d H:i:s');
