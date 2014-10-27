@@ -1,0 +1,5 @@
+template: docker/Dockerfile.mustache
+context: docker/context
+
+environment:
+    SolutionStackName: 64bit Amazon Linux 2014.09 v1.0.9 running Docker 1.2.0
