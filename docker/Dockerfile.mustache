@@ -10,16 +10,6 @@ COPY env/etc/httpd/conf.d/app.conf /etc/httpd/conf.d/app.conf
 RUN git clone https://github.com/renegare/docker-app-sample.git /app
 WORKDIR /app
 RUN git checkout {{version}}
-
-{{#test}}
-# RUN composer install
-# make test
-{{/test}}
-
-{{^test}}
-# RUN composer install --no-dev
-{{/test}}
-
 {{/version}}
 
 EXPOSE 80
