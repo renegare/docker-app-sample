@@ -1,2 +1,0 @@
-template: docker/Dockerfile.mustache
-context: docker/context
